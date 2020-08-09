@@ -42,11 +42,10 @@ async def read_items():
 """
 
 
-@app.get("/items/{itemCall}/")
+@app.get("/jobs/{itemCall}/")
 def form_to(request: Request,itemCall:str):
     skillsDict={}
     for row in rows:
-        print(remove(row[0]))
         if itemCall.lower()==remove(row[0].lower()):
             res=row
             skills=res[4].split(", ")
@@ -58,22 +57,54 @@ def form_to(request: Request,itemCall:str):
     myDict.update(skillsDict)
     #Adds all the skills one by one, each can be accessed with skill0 or skill1 etc.
     
-    print(myDict["skill1"])
     return templates.TemplateResponse('index.html',myDict)
 
+global currentUser
 currentUser=[]
-@app.post("/items/")    #("/items/{itemCall}/")
+@app.post("/profile/")    #("/items/{itemCall}/")
 def form_post(request: Request,num: int = Form(...)): #itemCall:str
+    global currentUser
     for user in userRows:
         if user[6]==num:
-            print(user)
+            
             currentUser=user
+            print(currentUser)
             return templates.TemplateResponse('login.html', context={'request': request,"welcome":user[0],"email":user[1],"skills":user[3],"field":user[5]})
         else:
-            return "I'm sorry, but the login information was incorrect. Access Denied."
+            return templates.TemplateResponse('home.html', context={'request': request,"denied":"Access Denied"})
 
 
 @app.get("/home")
 def go_home(request:Request):
     myDict={"request": request,"user":currentUser}
     return (templates.TemplateResponse('home.html',myDict))
+
+
+@app.get("/about")
+def go_home(request:Request):
+    myDict={"request": request,"user":currentUser}
+    return (templates.TemplateResponse('about.html',myDict))
+
+
+@app.get("/courses")
+def go_home(request:Request):
+    myDict={"request": request,"user":currentUser}
+    return (templates.TemplateResponse('courses.html',myDict))
+
+
+@app.get("/jobs")
+def go_home(request:Request):
+    myDict={"request": request,"user":currentUser}
+    return (templates.TemplateResponse('jobs.html',myDict))
+
+@app.get("/user")
+def go_home(request:Request):
+    global currentUser
+    if currentUser:
+        myDict={"request": request,"user":currentUser[0]}
+        print(currentUser,"DONE")
+        return (templates.TemplateResponse('profile.html',myDict))
+    else:
+        myDict={"request": request}
+        print("current",currentUser)
+        return (templates.TemplateResponse('profile.html',myDict))
