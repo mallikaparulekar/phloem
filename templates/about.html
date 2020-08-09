@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="{{ url_for('static', path='/style.css') }}" rel="stylesheet">
+  </head>
+  <ul>
+    <li><a href="/home">Home</a></li>
+    <li><a href="/user">Profile</a></li>
+    <li><a href="/jobs">Jobs</a></li>
+    <li><a href="/courses">Courses</a></li>
+    <li><a href="/about">About</a></li>
+  </ul>
+  <header>
+    <section aria-label="Header">
+      <h1>About Us</h1>
+      <h2>Why we do what we do</h2>
+    </section>
+  </header>
+  <body>
+    <section>
+      <h3>Our Mission</h3>
+      <div class="paragraph-container">
+        <div class="paragraph">
+      <p>With job loss exacerbated in an already vulnerable economy, we need to build a resilient, sustainable economy that will give millions of people motivating jobs that change the world. We’re a team of students who aim to help achieve that through building a platform to help match job seekers with sustainable non-exploitative companies.</p>
+        </div>
+        </div>
+    </section>
+    <section>
+      <h3>Meet Our Team</h3>
+    </section>
+    <section>
+      <h4>Zaina Shaik</h4>
+      <figure>
+        <img src="{{ url_for('static', path='/aboutImages/zaina.JPG') }}" alt="zaina" style="width:200px;height:200px;" class="center" />
+      </figure>
+      <div class="profile-container">
+        <div class="profile">
+      <p>Zaina is an incoming freshman at University of California, Berkeley intending to major in Computer Science and Data Science. She is a Regents' and Chancellor's Scholar and in the STEM Excellence through Equity & Diversity Scholars honors program. She is excited to grow her computer science knowledge while making an impact.</p>
+      <p>Email: zainashaik@berkeley.edu</p>
+      </div>
+
+        </div>
+      </section>
+
+      <section>
+      <h4>Mallika Parulekar</h4>
+      <figure>
+        <img src="{{ url_for('static', path='/aboutImages/mallika.jpeg') }}" alt="Mallika" style="width:200px;height:200px;" class="center" />
+      </figure>
+      <div class="profile-container">
+        <div class="profile">
+      <p>Mallika Parulekar is an incoming freshman at UC Berkeley, intending to major in Computer Science and Economics. During high school, she was involved with her school’s policy debate team, tutoring, as well as Kathak, an Indian classical dance. She’s excited for the next four years!</p>
+      <p>Email: mallika.parulekar@berkeley.edu</p>
+        </div>
+        </div>
+      </section>
+
+      <section>
+      <h4>Isha Rajput</h4>
+      <figure>
+        <img src="{{ url_for('static', path='/aboutImages/isha.jpg') }}" alt="isha" style="width:200px;height:200px;" class="center" />
+      </figure>
+      <div class="profile-container">
+        <div class="profile">
+      <p>Isha is an incoming freshman at the University of California, Los Angeles studying Computer Science. In high school, she was very involved in the Youth Community Service-Interact Club and enjoys Bollywood Dance. In college, she hopes to join similar organizations and continue exploring computer science+social good.</p>
+      <p>Email: ishar@ucla.edu</p>
+        </div>
+        </div>
+      </section>
+      
+      <section>
+      <h4>Brian Liu</h4>
+      <figure>s
+        <img src="{{ url_for('static', path='/aboutImages/brian.jpg') }}" alt="brian" style="width:200px;height:200px;" class="center" />
+      </figure>
+      <div class="profile-container">
+        <div class="profile">
+      <p>Brian is an incoming 5th(ish) year at UC Berkeley majoring in Applied Math and IB and minoring in CalTeach and GPP. They’re involved in Berkeley Organization for Animal Advocacy and Spectrum: Autism at Cal, and are interested in applying technology to achieve justice for all oppressed beings.</p>
+      <p>Email: brianliu@berkeley.edu</p>
+        </div>
+        </div>
+      </section>
+  </body>
+  <footer>
+    <h6>Contact Us</h6>
+    <div class = "foot-container">
+    <div class = "foot">
+      <p>Email: phloemteam@gmail.com</p>
+      <p>Instagram: @phloemteam</p>
+    </div>
+    </div>
+    </footer>
+</html>

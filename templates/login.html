@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="{{ url_for('static', path='/styles.css') }}" rel="stylesheet">
+
+<title>Phloem</title>
+</head>
+
+<body>
+    <ul>
+        <li><a href="/home">Home</a></li>
+        <li><a href="/user">Profile</a></li>
+        <li><a href="/jobs">Jobs</a></li>
+        <li><a href="/courses">Courses</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
+    
+      <div class="Welcome">
+    <h1>Welcome, {{welcome}}</h1>
+</div>
+
+<div class="profile-container">
+    <div class="profile">
+        <div class="Intro">
+            <img src="{{ url_for('static', path='/profile.jpg') }}" alt="Mike" />
+            <div class="columnText">
+            <p>Email: {{email}}<br><br>Looking for Work in: {{field}} Industry</p>
+        </div>
+        
+    </div>
+    <div class="skillSet">
+        <p id="demoSkills"><strong>Skills: </strong>{{skills}}</p>
+    </div>
+    <div class="AddMySkills">
+        <input type="text" id="addSkills" value="New Skills">
+        <button onclick="myFunction()">Add Skills</button>
+        </div>
+    </div>
+    
+
+</div>
+
+
+
+</body>
+
+<script>
+    function myFunction() {
+      document.getElementById("demoSkills").innerHTML += ", "+document.getElementById("addSkills").value;
+    }
+    </script>
+
+</html>

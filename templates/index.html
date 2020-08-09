@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="{{ url_for('static', path='/style.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', path='/styles.css') }}" rel="stylesheet">
+
+  </head>
+  <body>
+  <ul>
+    <li><a href="/home">Home</a></li>
+    <li><a href="/profile">Profile</a></li>
+    <li><a href="/jobs">Jobs</a></li>
+    <li><a href="/courses">Courses</a></li>
+    <li><a href="/about">About</a></li>
+  </ul>
+    
+    <div class="jobs-container">
+        <div class="jobs">
+        <h1>{{company}}</h1>
+        <h3>{{jobTitle}}</h3>
+        <h4>{{location}}</h4>
+        <p>{{jobSummary}}</p>
+      
+        <div class="skill-container">
+            <div class="skill">
+            <p>{{skill8}}</p>
+            <p>{{skill7}}</p>
+            <p>{{skill0}}</p>
+            <p>{{skill1}}</p>
+            <p>{{skill2}}</p>
+            <p>{{skill3}}</p>
+            <p>{{skill4}}</p>
+            <p>{{skill5}}</p>
+            <p>{{skill6}}</p>
+           
+        
+        </div>
+        </div>
+    </div>
+    </div>
+
+<h1>{{welcome}}</h1>
+</body>
+</html>

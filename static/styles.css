@@ -1,0 +1,185 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin:0px;
+}
+.header h1{
+    color:rgb(85, 119, 85);
+    font-size:30px;
+    text-align:center;
+    padding:40px;
+    background-color:rgb(226, 238, 230);
+}
+
+.jobs p{
+    width:80%;
+    display:flex;
+    
+}
+.jobs{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:40%;
+    border-radius:20px;
+    background-color:rgb(221, 230, 251);
+    padding:50px 30px;
+    margin:10px;
+}
+.jobs-container{
+    display:flex;
+    justify-content:center;
+    margin-top:100px;
+}
+.jobs h1,h3{
+    text-align:center;
+    color:rgb(46, 46, 75);
+}
+.jobs h3{
+    background-color:rgb(248, 215, 154);
+    border-radius:8px;
+    padding:10px 12px;
+}
+.jobs h1,h3,p{
+    margin:15px 0px;
+}
+.skill p{
+    font-size:15px;
+    color:rgb(236, 229, 236);
+    margin:10;
+    text-align:center;
+}
+
+.skill-container{
+    display:flex;
+    margin-top:20px;
+    justify-content:center;
+    width:95%;
+    text-align:center;
+}
+.skill{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    border-radius:10px;
+    background-color:rgb(60, 53, 77);
+    margin:0;
+    text-align:center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(8, 104, 128);
+    /*text-align: right;*/
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(108, 183, 206);
+  }
+
+  .Welcome h1{
+    font-size:30px;
+    color:rgb(44, 44, 61);
+    text-align:center;
+    background-color:rgb(219, 219, 247);
+    border-radius:12px;
+    padding:8px 18px;
+    
+  }
+  .Welcome{
+      width:100%;
+      display:flex;
+      flex-direction:row;
+     justify-content:center;
+     margin-top:50px;
+  }
+  .profile-container{
+      width:100%;
+      justify-content:center;
+  }
+  .profile{
+      display:flex;
+      flex-direction:column;
+      margin-top:50px;
+      justify-content:center;
+      align-items:center;
+      background-color:rgb(211, 211, 211);
+  }
+  .Intro img{
+      width:200px;
+      height:200px;
+      margin:40px;
+      border-radius:20px;
+  }
+  .Intro{
+      width:42%;
+      display:flex;
+      flex-direction:row;
+      justify-content:space-around;
+      background-color:rgb(178, 188, 206);
+        margin-top:20px;
+        padding-bottom:20px;
+  }
+  .columnText{
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      text-align:left;
+      justify-content:center;
+      margin:10px 0px;
+  }
+  .columnText p{
+      margin:10px 0px;
+      width:100%;
+  }
+  .skillSet{
+      width:40%;
+  }
+  .skillSet p{
+      color:black;
+      background-color:rgb(235, 150, 80);
+      border-radius:10px;
+      padding:10px 15px;
+  }
+  .skillSet strong{
+      color:white;
+  }
+  
+  .AddMySkills{
+      width:100%;
+      display:flex;
+      flex-direction:row;
+      justify-content:center;
+      margin-bottom:20px;
+  }
+  button,input{
+      border-radius:8px;
+      width:300px;
+      height:40px;
+      font-size:20px;
+      color:rgb(16, 16, 47);
+      text-align:center;
+      margin-right:15px;
+      border:none;
+  }
+  button{
+      width:150px;
+  }
+  input{
+      font-style:italic;
+  }
+  
