@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="148.43025mm"
+   height="32.041531mm"
+   viewBox="0 0 148.43025 32.041531"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="phloem.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="223.83895"
+     inkscape:cy="-2.7722829"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-40.094018,-17.592372)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:42.33333206px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="66.675026"
+       y="48.669643"
+       id="text817"><tspan
+         sodipodi:role="line"
+         id="tspan815"
+         x="66.675026"
+         y="48.669643"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Rasheeq;-inkscape-font-specification:Rasheeq;fill:#008000;stroke-width:0.26458332">hloem</tspan></text>
+    <path
+       style="fill:#00ff00;fill-opacity:1;stroke:#008000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 40.290882,48.63979 V 24.318264 c 0,0 0.109951,-2.778487 2.071338,-4.810851 1.961387,-2.032365 5.311982,-1.770661 5.311982,-1.770661 h 16.203215 v 14.733232 c 0,0 -0.0058,1.802406 -1.670434,3.541322 -1.664657,1.738916 -3.608139,1.737253 -3.608139,1.737253 H 46.638532 V 48.63979 Z"
+       id="path819"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cczccczcccc" />
+    <path
+       style="fill:#008000;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 46.638532,37.748559 V 48.63979 h -6.34765 V 37.748559 l -0.0022,-8.524491 c 0,0 -0.786258,-1.994348 3.22376,-4.731416 4.010018,-2.737067 12.825242,0.891574 16.579766,-2.086267 3.754524,-2.977841 3.785212,-4.669633 3.785212,-4.669633 0,0 0.60814,9.407599 -2.967252,12.023238 -3.012878,2.204121 -10.983627,-1.230898 -13.381524,2.670942 -1.274625,2.119595 -0.862562,2.936948 -0.890109,5.317627 z"
+       id="path821"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccczzcscc" />
+  </g>
+</svg>
